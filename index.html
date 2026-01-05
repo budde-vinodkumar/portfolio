@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vinod Kumar | Python & AI Developer</title>
+  <meta name="description" content="MCA graduate portfolio showcasing Python and AI projects.">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav aria-label="Main Navigation">
+  <h2 class="logo">Vinod</h2>
+  <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+  <ul class="nav-links">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<header class="hero">
+  <h1>Vinod Kumar</h1>
+  <p>MCA Graduate | Python & AI Projects</p>
+  <a href="#projects" class="btn">View Projects</a>
+</header>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    <div class="project-card" data-project="voice">
+      <h3>Real-Time Voice Changer Using AI</h3>
+      <p>Live AI-based voice modification.</p>
+      <span>Python · Streamlit · FFmpeg</span>
+    </div>
+
+    <div class="project-card" data-project="weather">
+      <h3>Weather Application</h3>
+      <p>Real-time weather using APIs.</p>
+      <span>HTML · CSS · JavaScript</span>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-box">
+    <div><h4>Programming</h4><p>Python, HTML, CSS, JS</p></div>
+    <div><h4>AI / ML</h4><p>MFCC, Voice Processing</p></div>
+    <div><h4>Systems</h4><p>OS, Networking Basics</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>MCA graduate focused on real-world software projects.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: vinod@example.com</p>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 Vinod Kumar</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="projectModal" aria-hidden="true">
+  <div class="modal-content">
+    <span class="close" role="button" tabindex="0" aria-label="Close modal">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalDescription"></p>
+    <h4>Key Features</h4>
+    <ul id="modalFeatures"></ul>
+    <h4>Tech Stack</h4>
+    <p id="modalTech"></p>
+    <a id="modalLink" class="btn" target="_blank">View Project</a>
+  </div>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
