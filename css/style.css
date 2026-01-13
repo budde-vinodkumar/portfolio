@@ -542,3 +542,51 @@ body {
     box-shadow: 0 12px 28px rgba(126, 94, 94, 0.18);
     margin-right: 100px;
 }
+.modal-content {
+  background: linear-gradient(
+    180deg,
+    #020617,
+    #020617f0
+  );
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+
+.modal-content h2 {
+  font-size: 1.6rem;
+}
+.modal-content p {
+  font-size: 1rem;
+  color: #ccc;
+}
+.project-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.03),
+    rgba(255,255,255,0.01)
+  );
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 26px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+.project-card h3 {
+  margin-bottom: 6px;
+}
+
+.project-card p {
+  color: #cbd5f5;
+  font-size: 0.95rem;
+}
+.project-links a {
+  margin: 0 8px;
+  color: #7e826d;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
